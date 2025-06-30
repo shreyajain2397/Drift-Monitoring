@@ -104,3 +104,14 @@ The static dashboards are served using FastAPI:
 
 ```bash
 uvicorn manual_drift_dashboard:app --reload
+
+
+## Key Learnings
+
+Built a lightweight, extensible model monitoring framework without external drift libraries.
+
+Demonstrated how data shifts can impact model performance over time.
+
+Used classical statistics (KS-test, t-test) to assess data quality and stability.
+
+Served results through a live dashboard for observability.
